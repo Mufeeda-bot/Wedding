@@ -36,7 +36,7 @@ function App() {
         <h2>Invitation</h2>
 
         <p>
-          Mr. S. Hussain & Mrs. S. Jaseela <br />
+          <strong>Mr. S. Hussain & Mrs. S. Jaseela</strong> <br />
           Muhammad Manzil, Mulammoodu, Karikkuzhi, Panavoor P.O, Nedumangad,
           Trivandrum – 695568 <br />
           Ph: 9495066802, 9496814975
