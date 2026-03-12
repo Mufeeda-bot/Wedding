@@ -74,11 +74,25 @@ function App() {
       <section id="venue" className="section">
         <h2>Nikkah Ceremony</h2>
 
-        <p>إن شاء الله</p>
+        <p>
+          <strong>إن شاء الله</strong>
+        </p>
 
         <p>Nikkah: 11:30 AM – 12:30 PM</p>
 
         <p className="highlight">Venue: Raj Convention Centre, Chullimanoor</p>
+        <div className="qr-section">
+          <div className="qr-wrapper">
+            <div className="scan-corners">
+              {/* This link is now encoded specifically for the Raj Convention Centre location */}
+              <img
+                src={`https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=${encodeURIComponent("https://maps.google.com/?q=Raj+Convention+Centre+Chullimanoor")}`}
+                alt="Venue QR"
+                className="qr-image"
+              />
+            </div>
+          </div>
+        </div>
 
         <p className="footer-note">
           With Best Compliments & Sharing the Happiness: Friends & Family

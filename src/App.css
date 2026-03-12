@@ -191,3 +191,32 @@ footer {
     padding: 60px 20px;
   }
 }
+/* Decrease the overall size of the image */
+.qr-image {
+  width: 120px; /* Reduced from 160px or 180px */
+  height: 120px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Make the wrapper tighter */
+.qr-wrapper {
+  background: white;
+  padding: 15px; /* Reduced padding */
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  display: inline-block;
+}
+
+/* Adjust the scan text size to match the smaller scanner */
+.scan-text {
+  font-size: 0.7rem;
+  margin-top: 10px;
+  letter-spacing: 1px;
+}
+
+/* Adjust the corner accents to fit the smaller size */
+.c {
+  width: 12px;
+  height: 12px;
+}
